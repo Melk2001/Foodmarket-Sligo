@@ -1,0 +1,139 @@
+header
+{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+    color:navajowhite;
+    border: 1px solid blue;
+}
+
+body
+{
+    color: white;
+    background-color:#000000;
+   
+}
+
+
+nav
+{
+     background-color: #9a9595;
+     padding: 5px;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px;  
+}
+
+nav ul li a
+{
+   
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+#content
+{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+aside{
+    border: 1px solid yellow;
+    width: 18%; 
+    float: right;
+}
+
+aside ul li
+{
+   list-style-type: none;
+     
+}
+
+aside ul li a
+{
+   color: blue;
+    text-decoration: : none;  
+   
+}
+
+footer
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: bottom;
+    bottom: 0px;
+    width 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul li 
+{
+     list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px;  
+}
+
+footer ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.col_detail
+{
+   
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+section h2
+{
+    text-align: center;
+}
+
+section img
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
